@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>League of Legends</h1>
+        <nav>
+            <ul>
+                <li><a href="#campeoes" onclick="mostrarSecao('campeoes')">Campeões</a></li>
+                <li><a href="#contato" onclick="mostrarSecao('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="champions-container"></section>
+
+    <section id="campeoes" style="display: none;">
+        <h2>Campeões</h2>
+        <div id="lista-campeoes"></div>
+    </section>
+
+    <section id="contato" style="display: none;">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações.</p>
+    </section>
+
+    <div class="Ahri"><img src="Ahri_splash.jpg" alt=""></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
