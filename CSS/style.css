@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,53 +11,6 @@ header {
     background-color: #0a112c;
     padding: 20px;
     text-align: center;
-}
-
-#hero {
-    background: url('https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Ahri_0.jpg') no-repeat center center;
-    background-size: cover;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    text-align: center;
-    box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.6);
-}
-
-.hero-content h2 {
-    font-size: 50px;
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
-}
-
-.hero-content p {
-    font-size: 24px;
-    color: #f5f5f5;
-    margin-bottom: 30px;
-}
-
-.cta-button {
-    padding: 15px 30px;
-    background-color: #00b4d8;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease-in-out;
-}
-
-#champions-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
 }
 
 nav ul {
@@ -79,347 +33,30 @@ section {
     text-align: center;
 }
 
-#lista-campeoes {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+section h2 {
+    margin-bottom: 15px;
+    color: #5b71ad;
 }
 
-.Ahri {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+.campeao {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
 }
 
-.Ahri:hover {
-    transform: scale(1.1);
-}
-
-.Ahri img {
+.campeao img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.Akali {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Akali:hover {
-    transform: scale(1.1);
-}
-
-.Akali img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Aphelios {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Aphelios:hover {
-    transform: scale(1.1);
-}
-
-.Aphelios img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Evelynn {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Evelynn:hover {
-    transform: scale(1.1);
-}
-
-.Evelynn img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Gwen {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Gwen:hover {
-    transform: scale(1.1);
-}
-
-.Gwen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Hwei {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Hwei:hover {
-    transform: scale(1.1);
-}
-
-.Hwei img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Irelia {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Irelia:hover {
-    transform: scale(1.1);
-}
-
-.Irelia img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Lillia {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Lillia:hover {
-    transform: scale(1.1);
-}
-
-.Lillia img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Lux {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Lux:hover {
-    transform: scale(1.1);
-}
-
-.Lux img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Morgana {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-    object-fit: cover;
-    object-position: right;
-}
-
-.Morgana:hover {
-    transform: scale(1.1);
-}
-
-.Morgana img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Nilah {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Nilah:hover {
-    transform: scale(1.1);
-}
-
-.Nilah img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Qiyana {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Qiyana:hover {
-    transform: scale(1.1);
-}
-
-.Qiyana img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Samira {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Samira:hover {
-    transform: scale(1.1);
-}
-
-.Samira img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Senna {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Senna:hover {
-    transform: scale(1.1);
-}
-
-.Senna img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.Seraphine {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Seraphine:hover {
-    transform: scale(1.1);
-}
-
-.Seraphine img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.champion-info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e3a8a;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-.champion-card:hover .champion-info {
-    opacity: 1;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
 }
